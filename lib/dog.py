@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# dog.py
 
 APPROVED_BREEDS = [
     "Mastiff",
@@ -30,8 +29,8 @@ class Dog:
         elif isinstance(value, str) and 1 <= len(value) <= 25:
             self._name = value
         else:
-            print("Name must be string between 1 and 25 characters.")
-
+            #print("Name must be string between 1 and 25 characters.")
+            pass
     @property
     def breed(self):
         return self._breed
